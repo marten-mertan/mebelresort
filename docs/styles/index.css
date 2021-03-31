@@ -1,0 +1,24 @@
+.icon-close {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  fill: white; }
+  @media screen and (min-width: 768px) {
+    .icon-close {
+      width: 8px;
+      height: 8px; } }
+
+.l-mmenu-type1.mod-justify {
+  justify-content: space-between; }
+
+.mmenu-type1-item {
+  flex-grow: 1; }
+
+.mmenu-type1-item__link {
+  justify-content: center; }
+
+.l-compact-header__block--logo {
+  max-width: 11.25rem; }
+  @media (min-width: 768px) {
+    .l-compact-header__block--logo {
+      max-width: 11.25rem; } }

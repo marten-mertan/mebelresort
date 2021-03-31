@@ -1,0 +1,11 @@
+.icon-close {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    fill: white;
+
+    @media screen and (min-width: 768px) {
+        width: 8px;
+        height: 8px;
+    }
+}
