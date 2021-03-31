@@ -1,13 +1,3 @@
-.icon-close {
-  display: inline-block;
-  width: 4px;
-  height: 4px;
-  fill: white; }
-  @media screen and (min-width: 768px) {
-    .icon-close {
-      width: 8px;
-      height: 8px; } }
-
 .l-mmenu-type1.mod-justify {
   justify-content: space-between; }
 
