@@ -1,5 +1,13 @@
 .fav-slider {
     position: relative;
+    @media (max-width: 1599px) {
+        width: calc(100% - 160px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @media (max-width: 767px) {
+        width: 100%;
+    }
     .owl-item > .col {
         border-bottom: 1px solid #f1f1f1;
     }
@@ -18,6 +26,10 @@
         left: -90px;
         transform: translate(0%, -50%);
         @media (max-width: 1599px) {
+            width: calc(100% + 120px);
+            left: -60px;
+        }
+        @media (max-width: 767px) {
             display: none;
         }
         .owl-prev {
@@ -26,6 +38,10 @@
             background-color: #4d4d4d;
             border: none;
             margin: 0;
+            @media (max-width: 1599px) {
+                width: 45px;
+                height: 45px;
+            }
 
             &:hover {
                 background-color: #007BA7;
@@ -37,6 +53,10 @@
             background-color: #4d4d4d;
             border: none;
             margin: 0;
+            @media (max-width: 1599px) {
+                width: 45px;
+                height: 45px;
+            }
 
             &:hover {
                 background-color: #007BA7;
