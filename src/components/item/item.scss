@@ -1,0 +1,112 @@
+.product-detail-2021{
+    .product-detail-slider-dots {
+        @media (min-width: 768px) {
+            max-width: none;
+        }
+    }
+    .l-main__title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+    }
+    .text-extra {
+        font-size: 14px;
+        line-height: 17px;
+        color: #4d4d4d !important;
+    }
+    .rate__item {
+        padding: 0;
+    }
+    .rate__item.is-hover, .rate__item.is-voted {
+        color: #ffc107;
+    }
+    .product-cat-limit.is-limited .product-cat-limit-quantity:before {
+        background-color: #ffc107;
+        border: 1px solid #ffc107;
+    }
+    .btn-sign {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 11px 30px;
+    }
+    .product-detail-price-current.product-cat-price-current {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .product-detail-price-old.product-cat-price-old {
+        font-size: 20px;
+        line-height: 24px;
+        color: #4d4d4d;
+    }
+    .product-cat-price-economy {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000;
+    }
+    .product-detail-sale {
+        padding: 6px 24px;
+        @media (max-width: 768px) {
+            padding: 1rem;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .product-detail-sale-body {
+            @media (max-width: 768px) {
+                padding-top: 0;
+                width: calc(100% - 3rem);
+                margin-bottom: 1rem;
+            }
+
+        }
+
+    }
+    .product-detail-all {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        white-space: nowrap;
+        color: #007ba7;
+        @media (max-width: 768px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .product-detail-sale-name {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #007ba7;
+    }
+    .product-detail-link {
+        font-size: 14px;
+        line-height: 17px;
+        color: #007ba7;
+    }
+    .product-detail-buy {
+        padding: 11px 30px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #007ba7;
+        &:hover {
+            color: white;
+        }
+    }
+    .product-cat-properties dt {
+        color: #4d4d4d;
+    }
+    .product-detail-info-container {
+        + .product-detail-info-container {
+            border-top: 0;
+        }
+    }
+}
+
+.text-item-extra {
+    font-weight: 300;
+    color: #4d4d4d;
+}
+.text-item-primary {
+    font-weight: 400;
+    color: black;
+}

@@ -1,0 +1,113 @@
+.working {
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000;
+        margin-bottom: 50px;
+    }
+    &-head {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 110px 44px 80px;
+        @media (max-width: 1023px){
+            padding: 0 60px 44px 60px;
+        }
+        @media (max-width: 767px){
+            flex-direction: column;
+            padding: 0 1.5rem 2rem;
+        }
+        &__img {
+            flex: 0 0 auto;
+            width: 506px;
+            height: 256px;
+            background: none 50% 50% no-repeat;
+            background-size: cover;
+            margin-right: 1.5rem;
+            @media (max-width: 1023px){
+                width: 303.6px;
+                height: 153.6px;
+            }
+            @media (max-width: 767px){
+                width: 100%;
+                height: 200px;
+                margin-right: 0;
+                margin-bottom: 1.5rem;
+            }
+        }
+        &__text {
+            flex: 1 1 auto;
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000;
+                margin-bottom: 0;
+                &.mod-bold {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    &-list {
+        &-item {
+            position: relative;
+            background: white;
+            border: 1px solid #e0e0e0;
+            padding: 1.5rem;
+            display: flex;
+            &:not(:last-child) {
+                margin-bottom: 44px;
+            }
+
+            &__number {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: #007ba7;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: white;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &__icon {
+                flex: 0 0 auto;
+                margin-right: 1rem
+            }
+            &-content {
+                flex: 1 1 auto;
+
+            }
+            &__title {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: #000;
+                margin-bottom: 15px;
+                margin-top: 10px;
+            }
+            &__text {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000;
+            }
+        }
+    }
+    .l-section__main {
+        padding: 1.5rem;
+        min-height: 5.125rem;
+        @media (min-width: 576px){
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+    }
+}

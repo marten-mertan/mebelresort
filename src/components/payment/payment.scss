@@ -1,0 +1,110 @@
+.payment {
+    .l-section__head {
+        background-color: #F1F1F1;
+    }
+    .l-section__main {
+        padding: 1.5rem;
+        min-height: 5.125rem;
+        @media (min-width: 576px){
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+    }
+    &__text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000;
+    }
+
+    &-main {
+        display: flex;
+        @media (max-width: 767px){
+            flex-direction: column;
+        }
+
+    }
+
+    &__img {
+        flex: 0 0 auto;
+        width: 340px;
+        height: 284px;
+        background: none 50% 50% no-repeat;
+        background-size: contain;
+        margin: auto 80px;
+        @media (max-width: 1023px){
+            margin: auto 40px;
+            width: 204px;
+            height: 170.4px;
+        }
+        @media (max-width: 767px){
+            margin: 1.5rem auto 0;
+        }
+    }
+
+    &-content {
+        width: 100%;
+        flex: 1 1 auto;
+    }
+    
+    &-input {
+        label {
+            font-size: 14px;
+            line-height: 17px;
+            color: #000;
+        }
+        input {
+            display: flex;
+            position: relative;
+            width: 100%;
+            padding: 13px 20px 12px;
+            font-size: 14px;
+            line-height: 17px;
+            color: #4d4d4d;
+            text-transform: none;
+            outline: none;
+            margin: 0;
+            border: 0;
+            cursor: pointer;
+            box-shadow: 0px 0px 4px rgba(77, 77, 77, 0.25);
+            z-index: 2;
+
+        }
+    }
+    &-btn {
+        display: flex;
+        input {
+            font-size: 16px;
+            line-height: 20px;
+            padding: 11px 30px;
+            @media (max-width: 767px){
+                margin: auto;
+            }
+        }
+    }
+
+    .form-control:disabled, .form-control[readonly] {
+        background-color: #fff;
+    }
+    
+    .mod-red {
+        color: #dc3030;
+    }
+    &-row {
+        display: flex;
+        @media (max-width: 767px){
+            flex-direction: column;
+        }
+    }
+    &-col {
+        flex: 1 1 auto;
+        width: 100%;
+        &:not(:last-child) {
+            margin-right: 1rem;
+            @media (max-width: 767px){
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
